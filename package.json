@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^8.0.0"
+  },
+  "name": "pepcoding-hackathon",
+  "version": "1.0.0",
+  "description": "This is an automation script for the web.",
+  "main": "app.js",
+  "repository": "git@github.com:siddharth-bhatnagar/pepcoding-hackathon.git",
+  "author": "Siddharth Bhatnagar",
+  "license": "MIT"
+}
