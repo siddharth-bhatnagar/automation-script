@@ -1,2 +1,4 @@
-# pepcoding-hackathon
-This is an automation project built with node.js 
+# Instagram Automation Script
+
+This project was built as part of pepcoding's hackathon using Puppeteer. 
+
