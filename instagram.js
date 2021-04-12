@@ -47,7 +47,7 @@ const instagram = {
             await instagram.page.waitForTimeout(1000);
             await instagram.page.waitForSelector("article > div:nth-child(1) img[decoding='auto']", { visible: true });
             let posts = await instagram.page.$$("article > div:nth-child(1) img[decoding='auto']");
-            for (let i = 0; i < 5; i++) {
+            for (let i = 0; i < 6; i++) {
                 let post = posts[i];
                 await Promise.all([
                     instagram.page.waitForNavigation({ waitUntil: 'networkidle2' }),
